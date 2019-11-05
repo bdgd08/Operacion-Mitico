@@ -1,0 +1,183 @@
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2::after{
+  content: '';
+  border: 1px solid green;
+  display: block;
+  margin-top: 20px;
+}
+
+span {
+  color: #fe4918;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+nav a {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+.bg-principal {
+  background-color: #fe4918;
+}
+
+.navegacion-a {
+  text-align: center;
+}
+
+.navegacion-a a {
+  font-size: 25px;
+  transition: all 1s ease;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navegacion-a a:hover {
+  background-color: #81be4d;
+  color: white;
+}
+
+.navegacion-a li {
+  margin-right: 40px;
+}
+
+.navegacion-a li:last-child {
+  border: 1px solid #fe4918;
+  color: #fe4918;
+}
+
+.hero {
+  background-image: url(../img/her.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.contenido-header {
+  padding-top: 20px;
+}
+
+.contenido-header h1 {
+    font-size: 5.9vw;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.contenido-header p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.redes-sociales {
+  text-align: center;
+  font-size: 30px;
+}
+
+.redes-sociales a:hover {
+  color: green;
+}
+
+.foto img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .5s ease-in-out;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 150px;
+}
+
+
+.foto img:hover {
+-webkit-filter: grayscale(0);
+-webkit-transform: scale(1.1);
+}
+
+.testimonial {
+  background-color: white;
+  padding: 15px;
+
+}
+
+.testimonial p {
+  text-align: justify;
+}
+
+blockquote {
+  padding-bottom: 20px;
+}
+
+blockquote::after{
+  content: '';
+  border: 1px solid orange;
+  display: block;
+  margin-top: 20px;
+}
+
+blockquote cite {
+ text-transform: uppercase;
+ margin-left: 10px;
+}
+
+.espacio {
+  width: 100%;
+}
+
+
+/** Footer **/
+
+.site-footer {
+  background-color: black;
+  padding: 20
+}
+
+.site-footer h2{
+  padding-top: 10px;
+  color: white;
+}
+
+.site-footer h2::after{
+  border: none;
+}
+
+.copy {
+  color: white;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+/* @media only screen and (min-width: 768px) {
+  .navegacion-a li {
+    margin-right: 20px;
+  }
+  .navegacion-a li:last-child {
+    margin-right: 0;
+  }
+
+} */
+/*
+.navegacion-a li:last-child {
+  border: 1px solid #fe4918;
+  color: #fe4918;
+} */
